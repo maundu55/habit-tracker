@@ -7,7 +7,6 @@ export default function Index (){
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#ffff",
     }}>
 
       <Text>Welcome to the Home Page!</Text>
