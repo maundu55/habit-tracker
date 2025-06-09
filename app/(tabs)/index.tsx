@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Index (){
@@ -6,11 +7,12 @@ export default function Index (){
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "#ffff",
     }}>
 
       <Text>Welcome to the Tabs Example!</Text>
       <Text>Navigate to the tabs below.</Text>
+      <Link href='/login'>Login Page</Link>
     </View>
   )
 }
