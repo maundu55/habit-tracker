@@ -10,7 +10,7 @@ export default function Login() {
       backgroundColor: "#ffff",
     }}>
       <Text>Login Page</Text>
-      <Text>Welcome to the Login Page!</Text>
+      <Text><h3>Welcome to the Login Page!</h3></Text>
       <Link href="/">Go back to Home</Link>
     </View>
   );

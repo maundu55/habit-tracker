@@ -10,9 +10,10 @@ export default function Index (){
     backgroundColor: "#ffff",
     }}>
 
-      <Text>Welcome to the Tabs Example!</Text>
+      <Text>Welcome to the Home Page!</Text>
       <Text>Navigate to the tabs below.</Text>
       <Link href='/login'>Login Page</Link>
+      <Link href='/explore'>Explore Page</Link>
     </View>
   )
 }
